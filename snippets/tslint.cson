@@ -1,0 +1,36 @@
+'.source.ts':
+	'TSLint Disable':
+		'prefix': 'tsld'
+		'body': '/* tslint:disable */'
+		'description': 'Disables all TSLint rules for the rest of the file'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
+	'TSLint Enable':
+		'prefix': 'tsle'
+		'body': '/* tslint:enable */'
+		'description': 'Enables all TSLint rules for the rest of the file'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
+	'TSLint Disable Rules':
+		'prefix': 'tsldr'
+		'body': '/* tslint:disable:${0:rule} */'
+		'description': 'Disables the listed rule(s) for the rest of the file'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
+	'TSLint Enable Rules':
+		'prefix': 'tsler'
+		'body': '/* tslint:enable:${0:rule} */'
+		'description': 'Enables the listed rule(s) for the rest of the file'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
+	'TSLint Disable Next Line':
+		'prefix': 'tsldnl'
+		'body': '// tslint:disable-next-line'
+		'description': 'Disables all TSLint rules for the next line'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
+	'TSLint Disable Rules Next Line':
+		'prefix': 'tsldnlr'
+		'body': '// tslint:disable-next-line:${0:rule}'
+		'description': 'Disables the listed rule(s) for the next line'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
+	'TSLint Disable Current Line':
+		'prefix': 'tsldcl'
+		'body': '// tslint:disable-line'
+		'description': 'Disables all TSLint rules for the current line'
+		'descriptionMoreURL': 'https://palantir.github.io/tslint/usage/rule-flags'
