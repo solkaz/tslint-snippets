@@ -1,0 +1,10 @@
+{
+  "name": "tslint-snippets",
+  "description": "Atom Snippets for TSLint rule flags",
+  "repository": "https://github.com/solkaz/tslint-snippets",
+  "license": "MIT",
+  "version": "0.0.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
